@@ -19,3 +19,12 @@
         main()
     
     ```
+
+### list 分组问题
+
+
+### pycharm批量注释
+- ```ctrl+/```
+
+### python留小数点后几位
+- ```round(data,2)```data是待处理数据，2是保留位数
