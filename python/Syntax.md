@@ -15,13 +15,20 @@
         val=0
         print(val)
 
-    if __name__ = '__main__':
+    if __name__ == '__main__':
         main()
     
     ```
 
 ### list 分组问题
-
+- 解决在一个list中对list内的内容进行再次分组
+    ```python
+    buffer=[]
+    for i in range(0,len(date),5):#这里需要讲解
+        b=data[i:i+5]
+        buffer.append(b)
+        data=buffer
+    ```
 
 ### pycharm批量注释
 - ```ctrl+/```
