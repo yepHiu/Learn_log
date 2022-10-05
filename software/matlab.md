@@ -218,6 +218,15 @@ MATLAB中没有直接提供计算向量模的方法
 MATLAB提供了`dot`现成的函数
 
 ---
+## 函数
+在MATLAB中函数一个文件声明一个函数，函数和文件是同名的
+![](matlab_pic/Snipaste_2022-09-29_18-25-17.png)
+- 函数语句的语法是:
+  `function [out1,out2, ..., outN] = myfun(in1,in2,in3, ..., inN)`
+  `out`对应着返回值
+  `in`则是入参
+
+---
 ## 单元矩阵
 一种我看来类似于python中dict的语法
 但是只能数字索引到obj

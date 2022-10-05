@@ -27,3 +27,4 @@
 ## 分类
 - [嵌入式](/hardware/hardware.md)
 - [python](/python/python.md)
+- [intro](intro.md)
